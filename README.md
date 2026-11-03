@@ -48,15 +48,10 @@ flowchart LR
 
 The model is good enough to give an **order of magnitude** that can be applied to any polygon in France. It is not reliable enough for site-level decisions.
 
-## What I learned
-
-- **Small data calls for honest evaluation.** In-sample R² on 6 points is close to meaningless. Out-of-sample error (LOOCV) is the number to report, even when it hurts.
-- **Scope with the client early.** In hindsight, the most valuable move would have been to agree upfront on the target accuracy and to ask for more labeled malls, before building features.
-- **Simple, explainable models first.** With ~10 samples, a physically motivated model (flow × capture rate) with uncertainty bands would be more defensible than adding features.
-
 ## My contribution
 
-[to fill in]
+- Data processing, visulisation of each mall on maps 
+- Prediction models : linear regression with gradient descent (made by hand without libraries for learning purpose); Polynomial regression with scikit learn  
 
 ## Stack
 
