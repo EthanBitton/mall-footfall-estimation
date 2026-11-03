@@ -2,7 +2,7 @@
 
 > CentraleSupélec · AI track · Client: **MyTraffic** (footfall-analytics startup) · 2023 · Team of 5
 
-**TL;DR**: MyTraffic turns mobile-network GPS pings into pedestrian flows on a nationwide grid of tiles. The data is aggregated so that it stays GDPR-compliant, because raw location data must be deleted after 3 months. The client's question: **how much footfall does a shopping mall get if it is not yet in their database?** We built a geospatial feature pipeline and regression models that estimate a mall's footfall from the shape of its polygon and the surrounding street flows. With only ~10 labeled malls, the model gives a **useful order of magnitude**: R² ≈ 0.81 in-sample, with leave-one-out errors from ~20% to much larger. Most of the work was about extracting signal from very small data and being honest about its limits.
+MyTraffic turns mobile-network GPS pings into pedestrian flows on a nationwide grid of tiles. The data is aggregated so that it stays GDPR-compliant, because raw location data must be deleted after 3 months. The client's question: **how much footfall does a shopping mall get if it is not yet in their database?** We built a geospatial feature pipeline and regression models that estimate a mall's footfall from the shape of its polygon and the surrounding street flows. With only ~10 labeled malls, the model gives a **useful order of magnitude**: R² ≈ 0.81 in-sample, with leave-one-out errors from ~20% to much larger. Most of the work was about extracting signal from very small data and being honest about its limits.
 
 Code and data are not published: the client's data is confidential.
 
