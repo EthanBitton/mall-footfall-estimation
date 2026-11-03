@@ -51,8 +51,8 @@ The model is good enough to give an **order of magnitude** that can be applied t
 
 ## My contribution
 
-- Data processing, visulisation of each mall on maps 
 - Prediction models : linear regression with gradient descent (made by hand without libraries for learning purpose); Polynomial regression with scikit learn  
+- Data processing, visulisation of each mall on folium maps for the client
 
 ## Stack
 
